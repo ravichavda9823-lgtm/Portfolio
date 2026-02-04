@@ -19,7 +19,7 @@ function Footer() {
                     </li>
                 </ul>
                 <p>
-                    © 2023 Copyright Design By <a href=""> Ravi Chavda</a>
+                    © 2026 Copyright Design By <a href=""> Ravi Chavda</a>
                 </p>
             </footer>
    </>
