@@ -410,27 +410,21 @@ function Home() {
             <i class="fa-solid fa-code skill-icon"></i>
             <h2>Frontend Development</h2>
             <p>Responsive UI using HTML, CSS, JavaScript, Bootstrap & React.</p>
-            <a href="#" class="read-btn">
-              Read More
-            </a>
+           
           </div>
 
           <div class="skill-card">
             <i class="fa-solid fa-server skill-icon"></i>
             <h2>Backend Development</h2>
             <p>Secure backend using Node.js & REST APIs.</p>
-            <a href="#" class="read-btn">
-              Read More
-            </a>
+           
           </div>
 
           <div class="skill-card">
             <i class="fa-solid fa-database skill-icon"></i>
             <h2>Database</h2>
             <p> MongoDB and optimized database architecture.</p>
-            <a href="#" class="read-btn">
-              Read More
-            </a>
+           
           </div>
         </div>
       </section>
