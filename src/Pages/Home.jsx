@@ -36,7 +36,7 @@ function Home() {
           </div>
         </div>
         <div className="photo text-center ">
-          <img src="/images/photo.png" alt />
+          <img src="/images\Photo.jpeg" alt />
         </div>
       </section>
 
@@ -54,7 +54,7 @@ function Home() {
           <div className="about-left">
             <div className="about-image">
               <div className="about-overlay" />
-              <img src="/images/photo.png" alt="About Image" />
+              <img src="/images\Photo.jpeg" alt="About Image" />
             </div>
           </div>
           {/* RIGHT CONTENT */}
