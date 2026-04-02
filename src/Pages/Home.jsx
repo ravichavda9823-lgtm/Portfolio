@@ -4,7 +4,7 @@ function Home() {
   return (
     <>
       {/* banner section start */}
-      <section className="banner-sec max-width d-flex">
+      <section className="banner-sec max-width d-flex" id="home">
         <div className="banner">
           <h1>Hi,I AM </h1>
           <h1>RAVI CHAVDA</h1>
@@ -48,58 +48,61 @@ function Home() {
 
       {/* about section start  */}
 
-      <section className="about-section max-width">
-        <div className="about-container">
-          {/* LEFT IMAGE */}
-          <div className="about-left">
-            <div className="about-image">
-              <div className="about-overlay" />
-              <img src="/images\Photo.jpeg" alt="About Image" />
+      <section className="about-section max-width" id="about">
+        <div className="container">
+          {/* TOP HEADING */}
+          <div className="head">
+            <h1>ABOUT US</h1>
+            <p>
+              Professional MERN Stack Developer creating modern, efficient,
+              <br></br>
+              user-centric web solutions with clean, maintainable code.
+            </p>
+          </div>
+
+          {/* DESCRIPTION */}
+          <div className="about-description">
+            <p>
+              A professional MERN Stack Developer with expertise in MongoDB,
+              Express.js, React.js, and Node.js, focused on building scalable
+              and high-performance web applications. Experienced in developing
+              end-to-end solutions, from intuitive front-end interfaces to
+              robust backend systems with clean and maintainable code. Committed
+              to continuous learning, modern development practices, and
+              delivering innovative, user-focused digital solutions.
+            </p>
+          </div>
+
+          {/* INFO GRID */}
+          <div className="about-grid">
+            <div className="info-box">
+              <h4>Email</h4>
+              <p>ravichavda9823@gmail.com</p>
+            </div>
+
+            <div className="info-box">
+              <h4>Phone</h4>
+              <p>+91 7046749636</p>
+            </div>
+
+            <div className="info-box">
+              <h4>Location</h4>
+              <p>Ahmedabad,Gujarat</p>
             </div>
           </div>
-          {/* RIGHT CONTENT */}
-          <div className="about-right">
-            <h2 className="small-title">About Me</h2>
-            <p className="about-text">
-              We are Full Stack Developers who build complete, high-performance
-              web applications with modern frontends and powerful backends.
-            </p>
-            <ul className="about-info">
-              <li>
-                <span>Name:</span>Ravi Chavda
-              </li>
-              <li>
-                <span>Date of birth:</span> January 04, 2005
-              </li>
-              <li>
-                <span>Address:</span>Navranpura Fire Station, 120/A,Ahemdabad
-              </li>
-              <li>
-                <span>Email:</span>{" "}
-                <a  href="https://mail.google.com/mail/?view=cm&fs=1&to=ravichavda9823@gmail.com"  target="_blank" style={{ color: "white" }}>
-                  <u style={{textDecoration:"none"}}>ravichavda9823@gmail.com</u>
-                </a>
-              </li>
-                  <li>
-                <span>Phone:</span>{" "}
-                <a  href="tel:+917046749636" style={{ color: "white" }}>
-                  <u style={{textDecoration:"none"}}>+91 7046749636</u>
-                </a>
-              </li>
-            </ul>
-            <div className="counter">
-              <a
-                href="/resume/Ravi_Chavda_Resume.pdf"
-                download="Ravi_Chavda_Resume"
-                className="cv-btn"
-              >
-                Download CV
-              </a>
-            </div>
+
+          {/* BUTTON */}
+          <div className="about-btn">
+            <a
+              href="/resume/Ravi_Chavda_Resume.pdf"
+              download
+              className="cv-btn"
+            >
+              Download CV
+            </a>
           </div>
         </div>
       </section>
-
       {/* about section ends */}
 
       <div classname="banner-hr">
@@ -108,15 +111,71 @@ function Home() {
 
       {/* projects section  start*/}
 
-      <section className="Project-sec max-width">
-        <div className="head">
-          <h1>FEATURED PROJECTS</h1>
-          <p>
-            Here are some of the selected projects that showcase my passion for
-            <br /> Full Stack development.
-          </p>
-        </div>
+      <section className="Project-sec max-width ">
+        <div className="projects d-flex project-reverse">
+          <div className="head">
+            <h1>FEATURED PROJECTS</h1>
+            <p>
+              Here are some of the selected projects that showcase my passion
+              for
+              <br /> Full Stack development.
+            </p>
+          </div>
+          <div className="projects-content">
+            <h2>OCCAZONE VENUE PLATFORM</h2>
+            <p>
+              Occazone Venue Platform is a MERN stack-based web application
+              designed to simplify venue discovery and booking for various
+              events. Users can search venues based on location, budget, and
+              preferences, and make real-time bookings. The system provides
+              secure authentication, online payment integration, and a
+              responsive user interface. It also includes an admin dashboard to
+              efficiently manage venues, users, and bookings.
+            </p>
 
+            <h5>PROJECT INFO</h5>
+            <div className="project-hr">
+              <hr />
+            </div>
+            <div className="years d-flex">
+              <h5>year</h5>
+              <h6>2025</h6>
+            </div>
+            <div className="project-hr">
+              <hr />
+            </div>
+            <div className="role d-flex">
+              <h5>Role</h5>
+              <h6>Mern Project</h6>
+            </div>
+            <div className="project-hr">
+              <hr />
+            </div>
+
+            <div className="ancore d-flex">
+              <a href="https://occazone.onrender.com" target="_blank">
+                LIVE DEMO <span className="fa fa-location-arrow"></span>
+              </a>
+              <a
+                href="https://github.com/ravichavda9823-lgtm/approx"
+                target="_blank"
+              >
+                {" "}
+                SEE ON GITHUB <span className="fa fa-github"></span>
+              </a>
+            </div>
+          </div>
+          <div className="projects-images">
+            <div className="color">
+              <a href="https://animenova.onrender.com/" target="_blank">
+                <img src="/images/occazone.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section className="Project1-sec max-width" id="project">
         <div className="projects d-flex">
           <div className="projects-images">
             <div className="color">
@@ -345,10 +404,10 @@ function Home() {
 
       {/* education details */}
       <section className="education-section max-width">
-        <h2 className="education-title"> My Education</h2>
-        <p className="education-subtitle">
-          My academic journey – 12th, Bachelor's and Master's.
-        </p>
+        <div className="head">
+          <h2> MY EDUCATION</h2>
+          <p>My academic journey – 12th, Bachelor's and Master's.</p>
+        </div>
         {/* 12th */}
         <div className="edu-item">
           <div className="edu-card">
@@ -396,7 +455,7 @@ function Home() {
 
       {/* about me start */}
 
-      <section class="skills-section max-width">
+      <section class="skills-section max-width" id="skill">
         <div class="skills-heading">
           <h1>FULL STACK SKILLS</h1>
           <p>
@@ -410,21 +469,18 @@ function Home() {
             <i class="fa-solid fa-code skill-icon"></i>
             <h2>Frontend Development</h2>
             <p>Responsive UI using HTML, CSS, JavaScript, Bootstrap & React.</p>
-           
           </div>
 
           <div class="skill-card">
             <i class="fa-solid fa-server skill-icon"></i>
             <h2>Backend Development</h2>
             <p>Secure backend using Node.js & REST APIs.</p>
-           
           </div>
 
           <div class="skill-card">
             <i class="fa-solid fa-database skill-icon"></i>
             <h2>Database</h2>
             <p> MongoDB and optimized database architecture.</p>
-           
           </div>
         </div>
       </section>
@@ -436,40 +492,43 @@ function Home() {
       </div>
 
       {/* contact section start */}
-      <section className="contact-sec max-width">
-        <div className="contact-head">
-          <h1>LET’S CONTACT</h1>
-          <h3>
-            Say hello at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ravichavda9823@gmail.com"   target="_blank" >ravichavda9823@gmail.com</a>
-          </h3>
-          <h3>
-            For more info, here’s my <a href="">resume</a>
-          </h3>
-        </div>
+      <section className="contact-sec max-width" id="contact">
+        <div className="head">
+          <h1>Let’s Connect</h1>
+          <p>Feel free to reach out for collaboration or any queries 👋</p>
 
-        <div className="contact-form ">
-          <form action="">
-            <label style={{ marginRight: "1000px" }}>Name</label>
-            <br />
-            <input type="text" />
-            <br />
-            <label style={{ marginRight: "1010px" }}>Email</label>
-            <br />
-            <input type="email" />
-            <br />
-            <label style={{ marginRight: "990px" }}>Subject</label>
-            <br />
-            <input type="text" />
-            <br />
-            <label style={{ marginRight: "970px" }}>Message</label>
-            <br />
-            <textarea name="" id="" />
-            <br />
-            <button>SUBMIT</button>
+          <h4>
+            Email:{" "}
+            <a href="mailto:ravichavda9823@gmail.com">
+              ravichavda9823@gmail.com
+            </a>
+          </h4>
+
+          <form>
+            <div className="input-group">
+              <input type="text" required />
+              <label>Name</label>
+            </div>
+
+            <div className="input-group">
+              <input type="email" required />
+              <label>Email</label>
+            </div>
+
+            <div className="input-group">
+              <input type="text" required />
+              <label>Subject</label>
+            </div>
+
+            <div className="input-group">
+              <textarea required></textarea>
+              <label>Message</label>
+            </div>
+
+            <button type="submit">Send Message</button>
           </form>
         </div>
       </section>
-
       {/* contact section ends */}
 
       <div className="banner-hr">
