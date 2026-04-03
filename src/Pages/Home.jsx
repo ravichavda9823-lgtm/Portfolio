@@ -30,7 +30,8 @@ function Home() {
             <a href="https://github.com/" target="_blank">
               <span className="fa  fa-github" />
             </a>
-            <a href="tel:+919876543210" target="_blank">
+            
+            <a href="tel:+917046749636" target="_blank">
               <button>CONTACT ME</button>
             </a>
           </div>
@@ -95,7 +96,7 @@ function Home() {
           <div className="about-btn">
             <a
               href="/resume/Ravi_Chavda_Resume.pdf"
-              download
+              download="Ravi_Chavda_Resume.pdf"
               className="cv-btn"
             >
               Download CV
@@ -111,17 +112,16 @@ function Home() {
 
       {/* projects section  start*/}
 
-      <section className="Project-sec max-width ">
-        <div className="projects d-flex project-reverse">
-          <div className="head">
-            <h1>FEATURED PROJECTS</h1>
-            <p>
-              Here are some of the selected projects that showcase my passion
-              for
-              <br /> Full Stack development.
-            </p>
-          </div>
-          <div className="projects-content">
+      <section className="Project-sec max-width  ">
+        <div className="head">
+          <h1>FEATURED PROJECTS</h1>
+          <p>
+            Here are some of the selected projects that showcase my passion for
+            <br /> Full Stack development.
+          </p>
+        </div>
+        <div className="projects d-flex project-reverse ">
+          <div className="projects-content ">
             <h2>OCCAZONE VENUE PLATFORM</h2>
             <p>
               Occazone Venue Platform is a MERN stack-based web application
@@ -167,14 +167,14 @@ function Home() {
           </div>
           <div className="projects-images">
             <div className="color">
-              <a href="https://animenova.onrender.com/" target="_blank">
+              <a href="https://occazone.onrender.com" target="_blank">
                 <img src="/images/occazone.png" alt="" />
               </a>
             </div>
           </div>
         </div>
       </section>
-      
+
       <section className="Project1-sec max-width" id="project">
         <div className="projects d-flex">
           <div className="projects-images">
